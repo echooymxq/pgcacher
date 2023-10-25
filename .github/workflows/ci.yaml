@@ -20,6 +20,6 @@ jobs:
       - uses: actions/upload-artifact@v3
         name: Upload binary
         with:
-          name: rocketmq
+          name: pgcacher
           path: build/*
 

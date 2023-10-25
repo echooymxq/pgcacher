@@ -17,4 +17,9 @@ jobs:
           go-version: 1.19
       - name: Build
         run: make all
+      - uses: actions/upload-artifact@v3
+        name: Upload binary
+        with:
+          name: rocketmq
+          path: build/*
 
